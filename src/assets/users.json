@@ -1,0 +1,120 @@
+[
+  {
+    "username": "admin_ravi",
+    "password": "admin123",
+    "role": "admin",
+    "name": "Ravi Kumar"
+  },
+  {
+    "username": "admin_priya",
+    "password": "admin456",
+    "role": "admin",
+    "name": "Priya Sharma"
+  },
+  {
+    "username": "admin_arjun",
+    "password": "admin789",
+    "role": "admin",
+    "name": "Arjun Mehta"
+  },
+
+  {
+    "username": "tutor_neha",
+    "password": "tutor123",
+    "role": "tutor",
+    "name": "Prof. Neha Patel"
+  },
+  {
+    "username": "tutor_suresh",
+    "password": "tutor456",
+    "role": "tutor",
+    "name": "Prof. Suresh Iyer"
+  },
+  {
+    "username": "tutor_kavita",
+    "password": "tutor789",
+    "role": "tutor",
+    "name": "Prof. Kavita Rao"
+  },
+
+  {
+    "username": "amit.verma",
+    "password": "stud123",
+    "role": "student",
+    "name": "Amit Verma",
+    "cgpa": null,
+    "skills": []
+  },
+  {
+    "username": "sneha.gupta",
+    "password": "stud234",
+    "role": "student",
+    "name": "Sneha Gupta",
+    "cgpa": null,
+    "skills": []
+  },
+  {
+    "username": "rahul.nair",
+    "password": "stud345",
+    "role": "student",
+    "name": "Rahul Nair",
+    "cgpa": null,
+    "skills": []
+  },
+  {
+    "username": "meera.das",
+    "password": "stud456",
+    "role": "student",
+    "name": "Meera Das",
+    "cgpa": null,
+    "skills": []
+  },
+  {
+    "username": "vikram.singh",
+    "password": "stud567",
+    "role": "student",
+    "name": "Vikram Singh",
+    "cgpa": null,
+    "skills": []
+  },
+  {
+    "username": "pooja.reddy",
+    "password": "stud678",
+    "role": "student",
+    "name": "Pooja Reddy",
+    "cgpa": null,
+    "skills": []
+  },
+  {
+    "username": "karan.malhotra",
+    "password": "stud789",
+    "role": "student",
+    "name": "Karan Malhotra",
+    "cgpa": null,
+    "skills": []
+  },
+  {
+    "username": "anjali.menon",
+    "password": "stud890",
+    "role": "student",
+    "name": "Anjali Menon",
+    "cgpa": null,
+    "skills": []
+  },
+  {
+    "username": "rohit.sharma",
+    "password": "stud901",
+    "role": "student",
+    "name": "Rohit Sharma",
+    "cgpa": null,
+    "skills": []
+  },
+  {
+    "username": "divya.pillai",
+    "password": "stud012",
+    "role": "student",
+    "name": "Divya Pillai",
+    "cgpa": null,
+    "skills": []
+  }
+]

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Outlet, NavLink } from "react-router-dom";
 
-function AdminLayout() {
+function TutorLayout() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   return (
@@ -11,15 +11,10 @@ function AdminLayout() {
           className="d-flex flex-column flex-shrink-0 p-3 bg-light"
           style={{ width: "250px" }}
         >
-          <NavLink
-            to="/admin/profile"
-            className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
-          >
-            <span className="fs-4">Admin Panel</span>
-          </NavLink>
+          <h4 className="text-center">Tutor Panel</h4>
           <hr />
           <ul className="nav nav-pills flex-column mb-auto">
-            <li className="nav-item">
+            <li>
               <NavLink
                 to="profile"
                 className={({ isActive }) =>
@@ -41,32 +36,42 @@ function AdminLayout() {
             </li>
             <li>
               <NavLink
-                to="add-company"
+                to="verify-students"
                 className={({ isActive }) =>
                   "nav-link " + (isActive ? "active" : "link-dark")
                 }
               >
-                Add Company
+                Verify Students
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="eligible-students"
+                to="placement-status"
                 className={({ isActive }) =>
                   "nav-link " + (isActive ? "active" : "link-dark")
                 }
               >
-                Eligible Students
+                Placement Status
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="student-status"
+                to="company-guidance"
                 className={({ isActive }) =>
                   "nav-link " + (isActive ? "active" : "link-dark")
                 }
               >
-                Student Status
+                Company Guidance
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="report"
+                className={({ isActive }) =>
+                  "nav-link " + (isActive ? "active" : "link-dark")
+                }
+              >
+                Reports
               </NavLink>
             </li>
           </ul>
@@ -80,7 +85,7 @@ function AdminLayout() {
           >
             ☰
           </button>
-          <h5 className="m-0">Admin Panel</h5>
+          <h5 className="m-0">Tutor Panel</h5>
         </div>
         <div className="p-4">
           <Outlet />
@@ -90,4 +95,4 @@ function AdminLayout() {
   );
 }
 
-export default AdminLayout;
+export default TutorLayout;

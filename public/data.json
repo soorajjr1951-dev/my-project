@@ -1,0 +1,54 @@
+{
+  "admin": {
+    "adminName": "Sooraj",
+    "email": "admin@example.com",
+    "role": "Super Admin",
+    "username": "admin",
+    "password": "1234"
+  },
+  "tutor": {
+    "tutorName": "Aparna",
+    "email": "tutor@example.com",
+    "role": "Super Tutor",
+    "username": "tutor",
+    "password": "1234"
+  },
+  "student": {
+    "name": "Arjun",
+    "email": "arjun@student.com",
+    "branch": "CSE",
+    "cgpa": 8.2,
+    "skills": ["Java", "React", "SQL", "Python", "AWS", "Node.js"],
+    "backlogs": 0,
+    "username": "student",
+    "password": "1234",
+    "applications": [
+      { "company": "Google", "status": "Applied" },
+      { "company": "Amazon", "status": "Shortlisted" }
+    ],
+    "history": [
+      { "company": "Amazon", "position": "Internship", "year": 2024 },
+      { "company": "Microsoft", "position": "Hackathon Finalist", "year": 2023 }
+    ],
+    "notifications": [
+      { "title": "Interview Scheduled", "message": "Google - 25th Sept, 10:00 AM" },
+      { "title": "Resume Reminder", "message": "Submit updated resume before 30th Sept" },
+      { "title": "Shortlisted", "message": "Amazon has shortlisted you for further process" }
+    ]
+  },
+  "companies": [
+    { "name": "Google", "minCgpa": 8.0, "skillsRequired": ["React", "Node.js", "SQL"] },
+    { "name": "Microsoft", "minCgpa": 7.5, "skillsRequired": ["Python", "Azure", "ML"] },
+    { "name": "Amazon", "minCgpa": 7.0, "skillsRequired": ["Java", "AWS", "Data Structures"] },
+    { "name": "Facebook", "minCgpa": 8.5, "skillsRequired": ["React", "GraphQL", "TypeScript"] },
+    { "name": "Apple", "minCgpa": 8.0, "skillsRequired": ["Swift", "iOS", "UI Design"] },
+    { "name": "Netflix", "minCgpa": 7.8, "skillsRequired": ["Python", "AWS", "Data Analytics"] },
+    { "name": "Tesla", "minCgpa": 7.5, "skillsRequired": ["Python", "C++", "Machine Learning"] },
+    { "name": "Adobe", "minCgpa": 7.2, "skillsRequired": ["JavaScript", "React", "UI/UX"] },
+    { "name": "IBM", "minCgpa": 7.0, "skillsRequired": ["Java", "Cloud", "AI"] },
+    { "name": "Oracle", "minCgpa": 7.3, "skillsRequired": ["SQL", "Java", "Cloud"] },
+    { "name": "Intel", "minCgpa": 7.4, "skillsRequired": ["C++", "Python", "Hardware"] },
+    { "name": "SAP", "minCgpa": 7.1, "skillsRequired": ["ABAP", "SQL", "ERP"] },
+    { "name": "Salesforce", "minCgpa": 7.6, "skillsRequired": ["JavaScript", "Cloud", "APIs"] }
+  ]
+}
